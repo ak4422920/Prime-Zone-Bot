@@ -78,13 +78,13 @@ async def send_random_video(client: Client, message: Message):
                 from_chat_id=DATABASE_CHANNEL_ID,
                 message_id=video_id,
                 caption=caption_text)
-                protect_content=True
             await mdb.increment_daily_count(user_id)
             await asyncio.sleep(600)
             await dy.delete()
         except Exception as e:
             print(f"Error sending video: {e}")
             await message.reply_text("Failed to send video..")
+
 
 
 
