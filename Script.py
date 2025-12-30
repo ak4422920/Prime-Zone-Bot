@@ -18,7 +18,7 @@ M𝖺𝗍𝖾𝗋𝗂𝖺𝗅 𝗂𝗇𝖼𝗅𝗎𝖽𝖾 𝖾𝗑𝗉𝗅𝗂�
 
 𝘉𝘺 = @{}"""
 
-  ABOUT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/AdultPlayxBot'>AdultPlay XBot</a>
+  ABOUT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href='http://t.me/Leakmmsdesibot'>Dꏂꌚꀤ ꒒ꏂꍏꀘ Bot</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ᴅᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏᴅʙ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
