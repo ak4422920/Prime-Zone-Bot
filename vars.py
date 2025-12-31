@@ -11,6 +11,6 @@ PICS = (os.environ.get("PICS", "https://i.ibb.co/vvXmVg7f/photo-2025-08-19-14-15
 LOG_CHNL = int(os.getenv("LOG_CHNL", ""))
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "Zzoorrooo") # Without @
 IS_FSUB = bool(os.environ.get("FSUB", True))
-AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1002779576540 -1002331917822").split()))
+AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1003613871726 -1003522885543").split()))
 DATABASE_CHANNEL_LOG = int(os.getenv("DATABASE_CHANNEL_LOG", ""))
 FREE_VIDEO_DURATION = int(os.getenv("FREE_VIDEO_DURATION", "240"))
