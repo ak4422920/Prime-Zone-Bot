@@ -43,7 +43,7 @@ async def callback_query_handler(client, query: CallbackQuery):
             await query.message.edit_caption(
                 caption=pro_text,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("💳 𝖴𝗉𝗀𝗋𝖺𝖽𝖾 / 𝖯𝖺𝗒𝗆𝖾𝗇𝗍", user_id=int(ADMIN_ID))],
+                    [InlineKeyboardButton("💳 𝖴𝗉𝗀𝗋𝖺𝖽𝖾 / 𝖯𝖺𝗒𝗆𝖾𝗇𝗍", url=f"https://t.me/PurelySinVIPBot")],
                     [InlineKeyboardButton("↩️ 𝖡𝖺𝖼𝗄", callback_data="start"),
                      InlineKeyboardButton("❌ 𝖢𝗅𝗈𝗌𝖾", callback_data="close")]
                 ])
