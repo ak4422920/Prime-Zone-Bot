@@ -71,7 +71,7 @@ async def send_random_video(client: Client, message: Message):
         await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.\n\n>Limit will reset every day at 5 AM (IST).**")
     else:
         try:
-            caption_text = "<b> Powered by: [𝑷𝒖𝒓𝒆𝒍𝒚𝑺𝒊𝒏](https://telegram.me/PurelySin)\n\n⚠️ This file will auto delete in 10 minutes!\n\n</b>"
+            caption_text = "<b> Powered by: [𝑷𝒖𝒓𝒆𝒍𝒚𝑺𝒊𝒏](https://telegram.me/PurelySin)\n\n⚠️ This file will auto delete in 15 minutes!\n\n</b>"
             video_id = random_video["video_id"]
             dy = await client.copy_message(
                 chat_id=message.chat.id,
@@ -80,11 +80,12 @@ async def send_random_video(client: Client, message: Message):
                 caption=caption_text,
                     protect_content=True)
             await mdb.increment_daily_count(user_id)
-            await asyncio.sleep(400)
+            await asyncio.sleep(900)
             await dy.delete()
         except Exception as e:
             print(f"Error sending video: {e}")
             await message.reply_text("Failed to send video..")
+
 
 
 
