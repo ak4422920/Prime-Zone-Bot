@@ -36,15 +36,15 @@ If you want to unlock more content and enjoy a smoother experience, consider upg
 <b><u>💎 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖯𝗅𝖺𝗇𝗌</u></b>
 
 <b>🥈 𝖲𝗂𝗅𝗏𝖾𝗋 𝖯𝗅𝖺𝗇</b>  
-» <b>1 Week</b> — 30 INR  
+» <b>1 Week</b> — 49 INR  
 » Daily limit: <b>{prime_limit}</b> files
 
 <b>🥇 𝖦𝗈𝗅𝖽 𝖯𝗅𝖺𝗇</b>  
-» <b>15 Days</b> — 60 INR  
+» <b>15 Days</b> — 89 INR  
 » Daily limit: <b>{prime_limit}</b> files
 
 <b>💠 𝖣𝗂𝖺𝗆𝗈𝗇𝖽 𝖯𝗅𝖺𝗇</b>  
-» <b>1 Month</b> — 90 INR  
+» <b>1 Month</b> — 139 INR  
 » Daily limit: <b>{prime_limit}</b> files
 
 <a href='https://i.ibb.co/FkkK8CHW/photo-2025-12-28-09-08-41-7588833232049668112.jpg'>📷 Click here to scan QR and pay</a>
